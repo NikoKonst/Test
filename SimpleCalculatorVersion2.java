@@ -12,7 +12,7 @@ public class SimpleCalculatorVersion2 {
 		System.out.print("1-Addition,2-Subtraction,3-Multiplication,4-Division, 5-Modulo: ");
 		int i=sc.nextInt();
 		int result;
-/*		if (i==1) {
+		if (i==1) {
 			result=x+y;
 			System.out.println(x + " + " + y + " = " + result );
 			}
@@ -30,37 +30,7 @@ public class SimpleCalculatorVersion2 {
 		}
 		else {
 			result=x%y;
-			System.out.println(x + " % " + y + " = " + result); */
-		switch(i) {
-			case 1:
-				result=x+y;
-				System.out.println(x + " + " + y + " = " + result );
-			break;
-			
-			case 2:
-				result=x-y;
-				System.out.println(x + " - " + y + " = " + result );
-			break;
-		
-			case 3: 
-				result=x*y;
-				System.out.println(x + " * " + y + " = " + result);
-			break;
-		
-			case 4: 
-				result=x/y;
-				System.out.println(x + " / " + y + " = " + result);
-			break;
-		
-			
-			case 5:
-				result=x%y;
-				System.out.println(x + " % " + y + " = " + result);
-			break;
-			
-			default:
-				System.out.println("Wrong number, try again");
-			break;
+			System.out.println(x + " % " + y + " = " + result);
 		}
 	}
 }
